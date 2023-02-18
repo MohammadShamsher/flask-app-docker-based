@@ -5,3 +5,11 @@ To create Docker image from dokcerfile
 To run docker image 8072 is default so we do port mapping it to 8070
 
   docker run -p 8082:8070 flask_application
+  
+To check all running images
+
+ docker ps 
+ 
+To stop Container
+ 
+ docker stop id_write
