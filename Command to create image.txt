@@ -1,0 +1,7 @@
+To create Docker image from dokcerfile
+
+  docker build -t flask_application:latest .
+  
+To run docker image 8072 is default so we do port mapping it to 8070
+
+  docker run -p 8082:8070 flask_application
